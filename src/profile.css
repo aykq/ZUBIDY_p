@@ -7,6 +7,19 @@
     background-color: #282c34;
 }
 
+.zubidy-logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 0px;
+    margin-left: 6.25rem;
+}
+
+.zubidy-name {
+    margin-top: 14.5px;
+    color: white;
+}
+
 /* navbar */
 .navbar {
     background-color: rgba(169, 169, 169, 0.401);
@@ -15,34 +28,46 @@
     justify-content: space-evenly;
 }
 
-.navbar-home {
-    display: inline;
-    margin-left: 0.75rem;
-    vertical-align: center;
-    margin-right: 1rem;
+.search-box {
+    /* margin-right: 6.25rem; */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.search-bar-input {
-    border-radius: 15px;
-    color: white;
-    background-color: black;
-    padding: 0.4rem;
-}
-
-.search-bar:hover input {
+.search-box:hover input {
     width: 30rem;
     /* transition: 0.5s; */
 }
 
-.search-bar input {
+.search-box input {
     width: 15rem;
-    transition: 0.5s;
+    transition: 0.25s;
+}
+
+.search-box input {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    padding: 0.4rem 1rem;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: lightgrey;
 }
 
 .notification-button {
     border-radius: 5px;
     border: none;
     background-color: darkgray;
+}
+
+.skyrim-logo {
+    border-radius: 50%;
+    background: transparent;
+    position: relative;
 }
 
 /* header */
@@ -60,7 +85,7 @@
     border: solid 1px white;
     width: 200px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +131,8 @@
     border: solid 1px white;
     color: white;
     background-color: #282c34;
-    min-height: 400px;
+    /* min-height: 400px; */
+    min-height: 800px;
     margin-bottom: 1.3rem;
 }
 

@@ -40,11 +40,11 @@
     transform: rotate(360deg);
   }
 }
+
 .butonlar{
   border:none;
-
-
 }
+
 .butonlar input[type="button"]{
   font-size: 1.1rem;
   flex-direction: row;
